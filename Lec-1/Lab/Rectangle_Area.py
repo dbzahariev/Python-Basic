@@ -1,6 +1,9 @@
+# a = int(input("a = "))
+# b = int(input("b = "))
+#
+# print("area =", (a * b))
+
 a = int(input())
 b = int(input())
 
-area = a * b
-
-print(area)
+print(a * b)
