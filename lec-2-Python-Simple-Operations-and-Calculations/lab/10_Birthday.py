@@ -1,6 +1,7 @@
-length = float(input())
-width = float(input())
-height = float(input())
+length = int(input())
+width = int(input())
+height = int(input())
 percent = float(input())
 
-print(float("{0:.3f}".format(((length * width * height) * 0.001) * (1 - (percent * 0.01)))))
+liters = ((length * width * height) * 0.001) * (1 - (percent * 0.01))
+print(f"{liters:.3f}")
