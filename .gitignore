@@ -108,3 +108,5 @@ venv.bak/
 launch.json
 test.py
 settings.json
+*.pptx#
+lab.py
