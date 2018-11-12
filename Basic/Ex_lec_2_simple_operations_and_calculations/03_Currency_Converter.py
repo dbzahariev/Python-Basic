@@ -1,12 +1,11 @@
-sum = float(input())
 c_1 = input()
 c_2 = input()
+result = float(input())
 
 USD = 1.79549
 EUR = 1.95583
 GBP = 2.53405
 
-result = sum
 
 if c_2 == "EUR":
     result /= EUR

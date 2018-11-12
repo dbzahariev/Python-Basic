@@ -1,4 +1,5 @@
 import math
+
 steps = int(input())
 dancers = int(input())
 days = int(input())
