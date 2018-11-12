@@ -1,13 +1,13 @@
 free_cubic_meters = float(input()) * float(input()) * float(input())  # width * length * height
 count_transported_box = 0
-boxs = input()
+boxes = input()
 diff = free_cubic_meters
-while not boxs == "Done":
-    count_transported_box += float(boxs)
+while not boxes == "Done":
+    count_transported_box += float(boxes)
     diff = count_transported_box - free_cubic_meters
     if count_transported_box >= free_cubic_meters:
         break
-    boxs = input()
+    boxes = input()
 
 if diff >= 0:
     print(f"No more free space! You need {(count_transported_box - free_cubic_meters):.0f} Cubic meters more.")

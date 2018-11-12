@@ -1,36 +1,36 @@
 grades = int(input())
-vreme = input()
+time = input()
 
 outfit = ""
 shoes = ""
 if 10 <= grades <= 18:
-    if vreme == "Morning":
+    if time == "Morning":
         outfit = "Sweatshirt"
         shoes = "Sneakers"
-    if vreme == "Afternoon":
+    if time == "Afternoon":
         outfit = "Shirt"
         shoes = "Moccasins"
-    if vreme == "Evening":
+    if time == "Evening":
         outfit = "Shirt"
         shoes = "Moccasins"
 elif 18 < grades <= 24:
-    if vreme == "Morning":
+    if time == "Morning":
         outfit = "Shirt"
         shoes = "Moccasins"
-    if vreme == "Afternoon":
+    if time == "Afternoon":
         outfit = "T-Shirt"
         shoes = "Sandals"
-    if vreme == "Evening":
+    if time == "Evening":
         outfit = "Shirt"
         shoes = "Moccasins"
 else:
-    if vreme == "Morning":
+    if time == "Morning":
         outfit = "T-Shirt"
         shoes = "Sandals"
-    if vreme == "Afternoon":
+    if time == "Afternoon":
         outfit = "Swim Suit"
         shoes = "Barefoot"
-    if vreme == "Evening":
+    if time == "Evening":
         outfit = "Shirt"
         shoes = "Moccasins"
 

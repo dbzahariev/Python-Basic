@@ -13,7 +13,7 @@ else:  # season == "Winter"
 discount = None
 if fisherman <= 6:
     discount = 10
-elif fisherman >= 7 and fisherman <= 11:
+elif 7 <= fisherman <= 11:
     discount = 15
 else:
     discount = 25
