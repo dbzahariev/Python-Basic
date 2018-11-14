@@ -1,5 +1,3 @@
-import math
-
 numbers_count = int(input())
 
 prev_sum = 0
