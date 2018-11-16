@@ -15,4 +15,3 @@ if salary <= 0:
     print("You have lost your salary.")
 else:
     print(salary)
-print msg
